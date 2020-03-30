@@ -1,6 +1,10 @@
-## Book-List project --- 
+## Book-List project 
+## Live Demo 
 
-![](BookList.png) 
+![](BookList.png)
+
+## Development Directory 
+
 ```bash
 book-list
 |-- data-models
