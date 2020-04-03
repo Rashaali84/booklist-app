@@ -21,13 +21,10 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     } else {
         // Instatiate book
         const book = new Book(title, author, isbn);
-
-        // Add Book to UI
-        UI.addBookToList(book);
-
         // Add book to store
         Store.addBook(book);
-
+        // Add Book to UI
+        UI.addBookToList(book);
         // Show success message
         UI.showAlert('Book Added', 'success');
 
